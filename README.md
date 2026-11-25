@@ -66,7 +66,7 @@
 
 Ace AI Assistant provides an AI‑powered personal assistant for macOS, Windows, iPhone, and iPad. It captures screen content, transcribes speech, generates notes, flashcards, and helps draft documents across popular apps. Users can access the service via desktop apps, a web portal, and mobile apps, with flexible credit‑based pricing plans. The platform emphasizes privacy, offering optional integration with existing AI subscriptions like Claude, ChatGPT, or Grok.
 
-**Areas:** AI · Productivity · Assistant · macOS · Windows · iOS
+**Areas:** Artificial Intelligence · Productivity · Assistant · macOS · Windows · iOS
 
 ## Ace AI Assistant on APIs.io
 
@@ -90,11 +90,17 @@ Everything profiled for Ace AI Assistant is published on APIs.io rather than in 
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [ace-bl-tech-mcp.yml](https://apis.io/servers/ace-bl-tech/ace-bl-tech-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Ace Bl Tech Agentic Access](https://apis.io/agentic-access/ace-bl-tech/ace-bl-tech-agentic-access/)
+- [Ace AI Assistant Agentic Access](https://apis.io/agentic-access/ace-bl-tech/ace-bl-tech-agentic-access/)
 
 #### JSON Schema (3)
 
@@ -120,15 +126,15 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Ace Bl Tech Authentication](https://apis.io/security/ace-bl-tech/ace-bl-tech-authentication/)
-- [Ace Bl Tech Domain Security](https://apis.io/security/ace-bl-tech/ace-bl-tech-domain-security/)
-- [Ace Bl Tech Vulnerability Disclosure](https://apis.io/security/ace-bl-tech/ace-bl-tech-vulnerability-disclosure/)
+- [Ace AI Assistant Authentication](https://apis.io/security/ace-bl-tech/ace-bl-tech-authentication/)
+- [Ace AI Assistant Domain Security](https://apis.io/security/ace-bl-tech/ace-bl-tech-domain-security/)
+- [Ace AI Assistant Vulnerability Disclosure](https://apis.io/security/ace-bl-tech/ace-bl-tech-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Ace Bl Tech Plans Pricing](https://apis.io/plans/ace-bl-tech/ace-bl-tech-plans-pricing/)
+- [Ace AI Assistant Plans Pricing](https://apis.io/plans/ace-bl-tech/ace-bl-tech-plans-pricing/)
 
 ## Where to find this API
 
@@ -145,28 +151,28 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 54.1** — developing · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 49.9** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 54.4 |
-| Contract governance | 79.1 |
-| Operational transparency | 26.3 |
+| Discoverability | 81.7 |
+| Contract quality | 57.5 |
+| Contract governance | 22.0 |
+| Operational transparency | 23.8 |
 | Developer ergonomics | 35.7 |
-| Access clarity | 60.0 |
+| Access clarity | 66.0 |
 
-**Agent readiness 44.4** — agent-ready (gated down from agent-native)
+**Agent readiness 45.3** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | bearer (partial credit) |
 | Idempotency | verified |
-| Error Semantics | derived (partial credit) |
+| Error Semantics | verified |
 | OpenAPI Examples | partial |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
@@ -181,6 +187,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | self |
 | Pagination Ratio | paginated |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | yes |
+| Markdown Negotiation | yes |
 
 **Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
 
